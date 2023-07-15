@@ -50,6 +50,7 @@ First you need to add a new entry to the mail drivers array in your `config/mail
         'address' => env('MAIL_FROM_ADDRESS'),
         'name' => env('MAIL_FROM_NAME'),
     ],
+    'save_to_sent_items' => env('MICROSOFT_GRAPH_SAVE_TO_SENT_ITEMS'),
 ],
 ```
 
